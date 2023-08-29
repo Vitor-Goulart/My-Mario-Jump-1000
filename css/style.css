@@ -16,7 +16,11 @@
 .Mario{
     width: 150px;
     position: absolute;
-    animation: pulo 1s infinite alternate;
+    bottom: 0;
+}
+
+.pulo{
+    animation: pulo 500ms ease-out;
 }
 
 .Cano{
@@ -39,11 +43,20 @@
 }
 
 @keyframes pulo{
-from{
-bottom: 0;
+0%{
+bottom: 0PX;
 }
-to{
-bottom: 140px;
+40%{
+bottom: 180px;
+}
+50%{
+    bottom: 180px;
+}
+60%{
+    bottom: 180px;
+}
+100%{
+bottom: 0;
 }
 }
 
