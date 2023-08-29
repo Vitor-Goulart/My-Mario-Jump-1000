@@ -9,5 +9,30 @@
     height: 500px;
     border: 1px solid red;
     margin: 0 auto;
+    position: relative;
 }
 
+.Mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.Cano{
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Nuvens{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Morte{
+    width: 10px;
+    position: absolute;
+}
