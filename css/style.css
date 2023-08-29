@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.Container{
+    width: 80%;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
